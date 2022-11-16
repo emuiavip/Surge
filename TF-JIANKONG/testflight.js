@@ -22,10 +22,10 @@ const title = 'TestFilght';
 const url = "https://testflight.apple.com/join/";
 const $ = new Env('TestFilght监控');
 /**
- * 填入要监测的appkey。从testfligt地址获取。
+ * 填入要监测的appkey。从testfligt地址获取。逗号格开
  * 例如"VCIvwk2g,wArXdacJ,2vnRvOTX,LzjySbQx,IdFRwmNy,qDkBu2ur,4Qt2lIm5,ZzqOu8tX,ftCqFe6D,fy7LvHVA,QKqitFwc"
 */
-//const appkey = "VCIvwk2g,1SyedSId";
+//const appkey = "iSTXkF4K";
 const appkey = $.getdata('appkey');
 
 //是否在没有tf位置的时候仍然弹出通知，默认不弹出,防止过多无用通知。
